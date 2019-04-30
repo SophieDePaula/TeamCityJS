@@ -21,8 +21,8 @@ try {
     process.env.APPLITOOLS_BATCH_NAME,
     process.env.APPLITOOLS_BATCH_ID
   );
-  // Start the test and set the browser's viewport size to 600 x 800
-  eyes.open(driver, "Test app", "First test", { width: 600, height: 800 });
+  // Start the test and set the g's viewport size to 600 x 800
+  eyes.open(driver, "Test app", "Test TeamCity", { width: 600, height: 800 });
 
   // Navigate the browser to the demo app
   driver.get("https://demo.applitools.com");
