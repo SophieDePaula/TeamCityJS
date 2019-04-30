@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eyes.selenium": "0.0.81"
+    "@applitools/eyes-selenium": "^4.16.2"
   }
 }
