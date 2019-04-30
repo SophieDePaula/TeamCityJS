@@ -4,7 +4,7 @@ const { Eyes } = require("@applitools/eyes-selenium");
 async function main() {
   var eyes = new Eyes(); // Note 1
   var apiKey = process.env.MY_APPLITOOLS_API_KEY;
-  eyes.setApiKey(apiKey); // Note 2
+  eyes.setApiKey("fwCQZJ14ygKelxOVIp0U4coWz2ufracejvgTTMGIxPc110"); // Note 2
   var innerDriver = new Webdriver.Builder() // Note 3
     .withCapabilities(Webdriver.Capabilities.chrome())
     .build();
