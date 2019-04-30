@@ -1,5 +1,4 @@
 var Webdriver = require("selenium-webdriver");
-require("chromedriver");
 const { Eyes } = require("@applitools/eyes-selenium");
 
 async function main() {
